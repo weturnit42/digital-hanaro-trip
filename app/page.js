@@ -19,7 +19,7 @@ export default function Home() {
     event.preventDefault(); // Prevent the form default behavior
     if (!input.trim()) return; // Exit if input is empty
 
-    const url = "http://3.104.102.36:5000/api"; // Your API endpoint
+    const url = "http://3.104.102.40/api"; // Your API endpoint
     const data = { data1: input }; // Prepare the data to send
 
     fetch(url, {
