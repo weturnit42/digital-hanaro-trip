@@ -4,6 +4,11 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 import { ChatProvider } from "./provider";
 
+export const metadata = {
+  httpEquiv: 'Content-Security-Policy',
+  content: "upgrade-insecure-requests"
+}
+
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
