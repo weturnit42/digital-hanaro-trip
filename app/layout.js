@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import "./globals.css";
@@ -6,7 +6,7 @@ import { ChatProvider } from "./provider";
 
 export const metadata = {
   httpEquiv: 'Content-Security-Policy',
-  content: "upgrade-insecure-requests"
+  content: "upgrade-insecure-requests",
 }
 
 const inter = Inter({
